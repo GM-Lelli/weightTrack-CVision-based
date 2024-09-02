@@ -14,15 +14,15 @@ Prototype application based on computer vision to track the trajectory of the ba
 
 1. Clone repository:
    ```bash
-   git clone https://github.com/tuo-username/analisi-squat.git
+   git clone https://github.com/GM-Lelli/weightTrack-CVision-based.git
    ```
 2. Access the project directory:
    ```bash
-   cd analysis-squat
+   cd weightTrack-CVision-based
    ```
 3. Install the required dependencies:
    ```bash
-   pip install -r requirements.txt
+   conda env create -f environment.yml
    ```
 
 ## Usage
@@ -31,7 +31,9 @@ Prototype application based on computer vision to track the trajectory of the ba
 2. Start video recording while performing the squat.
 3. Use the script to analyze the video:
    ```bash
-   python analyze_squat.py --video path_to_video
+   cd "your_dir/weightTrack-CVision-based"
+   #Correct usage: python main.py 'read_path' 'write_path'
+   python main.py "media\\video\\esp1_1.mp4" "media\\foto\\result.png"
    ```
 4. The results, including the barbell trajectory and training parameters, will be displayed on the screen.
 
