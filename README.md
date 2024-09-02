@@ -45,6 +45,4 @@ Prototype application based on computer vision to track the trajectory of the ba
 
 ## Credits.
 
-Project developed by Gian Marco Lelli as part of a term paper on Computer Vision. Freshman ID: 305298.
-
-Translated with DeepL.com (free version)
+Project developed by Gian Marco Lelli as part of a term paper on Computer Vision.
